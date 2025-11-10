@@ -1,15 +1,22 @@
 # 🎮 Jogo em C com Ranking
 
-Um jogo simples desenvolvido em C com ranking de jogadores armazenado em arquivo binário.
+Projeto individual que implementa um jogo estilo match-3 em matriz 10×5.
 
 ## 💡 Funcionalidades
-- Cadastro e exibição de jogadores
-- Ranking ordenado com Bubble Sort
-- Uso de structs e macros do pré-processador
+- Mecânica de combinação de números iguais
+- Atualização de valores e reorganização automática do tabuleiro via algoritmo de gravidade
+- Pontuação dinâmica
+- Progressão de dificuldade
+- Recurso de “martelo” como vida extra
+- Salvamento e leitura de ranking em arquivo binário, com ordenação por Bubble Sort e persistência entre partidas
+- Validação de entrada do usuário e interface interativa no terminal
 
 ## 🧰 Tecnologias
 - Linguagem C
-- VS Code
+- Manipulação de arquivos (fopen, fread, fwrite)
+- Struct
+- Ordenação
+- Controle de fluxo
 
 ## ▶️ Como executar
 ```bash
